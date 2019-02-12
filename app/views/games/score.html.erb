@@ -1,0 +1,8 @@
+<h1>Result</h1>
+<h2>Score: <%=  @score  %></h2>
+<%if @valid %>
+  <p><strong>Congratulations!</strong> <%=@word.capitalize%> is a valid English world!"</p>
+<% else %>
+  <p>Sorry but <strong><%=@word%></strong>, <%=@msg%></p>
+<%end%>
+<%= link_to 'Play again', new_path %>

@@ -1,0 +1,19 @@
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .card{
+    border: 1px solid #2B86C1;
+    font-size: 2em;
+    background-color: #3498DC;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px #ADC0CE;
+    padding: .5em 1em;
+    margin-left: 4px;
+    font-family: serif;
+  }
+}
+
+
